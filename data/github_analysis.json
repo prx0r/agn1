@@ -1,0 +1,131 @@
+[
+  {
+    "repo": "Phala-Network/phala-blockchain",
+    "ticker": "PHA",
+    "stars": 371,
+    "forks": 159,
+    "open_issues": 135,
+    "language": "Rust",
+    "created": "2020-01-08",
+    "pushed": "2026-05-15",
+    "commits_30d": 0,
+    "commits_90d": 0,
+    "unique_authors_30d": 0,
+    "top_author_pct": 0,
+    "bus_factor_risk": "LOW",
+    "total_contributors": 41,
+    "releases_90d": 0,
+    "latest_release": "nightly-2024-07-30",
+    "merged_prs": 86,
+    "open_prs": 0,
+    "health_score": 25
+  },
+  {
+    "repo": "valory-xyz/autonolas-registries",
+    "ticker": "OLAS",
+    "stars": 15,
+    "forks": 12,
+    "open_issues": 0,
+    "language": "Solidity",
+    "created": "2022-06-14",
+    "pushed": "2026-07-16",
+    "commits_30d": 0,
+    "commits_90d": 24,
+    "unique_authors_30d": 0,
+    "top_author_pct": 0,
+    "bus_factor_risk": "LOW",
+    "total_contributors": 7,
+    "releases_90d": 0,
+    "latest_release": "v1.3.0",
+    "merged_prs": 0,
+    "open_prs": 0,
+    "health_score": 17
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  },
+  {
+    "error": "Could not fetch repo: 403"
+  }
+]
