@@ -1,0 +1,585 @@
+[
+  {
+    "ticker": "BREV",
+    "name": "Brevis",
+    "mcap": 17076074.743018053,
+    "stars": 102,
+    "score": 70,
+    "reasons": [
+      "small mcap (<$20M)",
+      "102\u2605 active repo",
+      "recent commits",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "proof_generation",
+    "thesis": "ZK coprocessor. Real-time ETH proving. Sherlock audited."
+  },
+  {
+    "ticker": "PHA",
+    "name": "Phala Network",
+    "mcap": 19389890.881510343,
+    "stars": 371,
+    "score": 65,
+    "reasons": [
+      "small mcap (<$20M)",
+      "371\u2605 active repo",
+      "commits this year",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "TEE AI cloud + attested agents. TDX + NVIDIA confidential GP"
+  },
+  {
+    "ticker": "LA",
+    "name": "Lagrange",
+    "mcap": 10872867.583823225,
+    "stars": 3361,
+    "score": 65,
+    "reasons": [
+      "small mcap (<$20M)",
+      "3361\u2605 active repo",
+      "commits this year",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "proof_generation",
+    "thesis": "ZK prover network + zkML. 3M+ inferences proven."
+  },
+  {
+    "ticker": "SCRT",
+    "name": "Secret Network",
+    "mcap": 7639543.447258645,
+    "stars": 584,
+    "score": 60,
+    "reasons": [
+      "small mcap (<$20M)",
+      "584\u2605 active repo",
+      "recent commits",
+      "high liquidity"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "Privacy-preserving smart contracts. TEE-based. $7.5M mcap."
+  },
+  {
+    "ticker": "NYM",
+    "name": "Nym",
+    "mcap": 15459542.975241058,
+    "stars": 1905,
+    "score": 60,
+    "reasons": [
+      "small mcap (<$20M)",
+      "1905\u2605 active repo",
+      "recent commits",
+      "high liquidity"
+    ],
+    "category": "agent_economy",
+    "thesis": "Mixnet for anonymous agent communication. $15.5M mcap."
+  },
+  {
+    "ticker": "OLAS",
+    "name": "Autonolas",
+    "mcap": 6174997.797080525,
+    "stars": 15,
+    "score": 55,
+    "reasons": [
+      "small mcap (<$20M)",
+      "15\u2605 small repo",
+      "recent commits",
+      "decent liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "agent_economy",
+    "thesis": "Agents hiring agents. Mech Marketplace. 14M agent-to-agent t"
+  },
+  {
+    "ticker": "ACU",
+    "name": "Acurast",
+    "mcap": 47785721.42176692,
+    "stars": 76,
+    "score": 55,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "76\u2605 repo",
+      "recent commits",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "attested_compute",
+    "thesis": "Decentralized compute via smartphone TEEs. ~300K compute uni"
+  },
+  {
+    "ticker": "ZKP",
+    "name": "zkPass",
+    "mcap": 8236304.482233987,
+    "stars": 40,
+    "score": 55,
+    "reasons": [
+      "small mcap (<$20M)",
+      "40\u2605 repo",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "data_proofs",
+    "thesis": "zkTLS: prove facts from HTTPS without exposing data."
+  },
+  {
+    "ticker": "0G",
+    "name": "0G",
+    "mcap": 32308457.253453527,
+    "stars": 177,
+    "score": 55,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "177\u2605 active repo",
+      "commits this year",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "Crypto-native AI cloud. OpenAI-compatible API over decentral"
+  },
+  {
+    "ticker": "CORTEX",
+    "name": "Cortex",
+    "mcap": 185776.2872948685,
+    "stars": 8010,
+    "score": 55,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "8010\u2605 active repo",
+      "high liquidity"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "AI on-chain inference. $0.2M mcap \u2014 ultra micro."
+  },
+  {
+    "ticker": "PEAQ",
+    "name": "peaq",
+    "mcap": 44998175.07617194,
+    "stars": 82,
+    "score": 50,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "82\u2605 repo",
+      "recent commits",
+      "decent liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "physical_machines",
+    "thesis": "Economic layer for machines as autonomous actors. SDK + ROS2"
+  },
+  {
+    "ticker": "HONEY",
+    "name": "Hivemapper",
+    "mcap": 3741087.6823946987,
+    "stars": 6,
+    "score": 45,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "6\u2605 small repo",
+      "commits this year",
+      "decent liquidity"
+    ],
+    "category": "physical_ai",
+    "thesis": "Decentralized mapping via dashcams. Bee Maps commercial arm."
+  },
+  {
+    "ticker": "VANA",
+    "name": "Vana",
+    "mcap": 27918814.096766494,
+    "stars": 114,
+    "score": 45,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "114\u2605 active repo",
+      "recent commits",
+      "decent liquidity"
+    ],
+    "category": "data_provenance",
+    "thesis": "User-owned data protocol. L1 blockchain. DataDAOs."
+  },
+  {
+    "ticker": "MYSH",
+    "name": "MyShell",
+    "mcap": 5696792.452790738,
+    "stars": 0,
+    "score": 45,
+    "reasons": [
+      "small mcap (<$20M)",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "agent_economy",
+    "thesis": "AI agent platform. $5.6M mcap."
+  },
+  {
+    "ticker": "MIND",
+    "name": "Mind Network",
+    "mcap": 6343082.895410959,
+    "stars": 0,
+    "score": 45,
+    "reasons": [
+      "small mcap (<$20M)",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "FHE for AI agents. $6.2M mcap."
+  },
+  {
+    "ticker": "EIGEN",
+    "name": "EigenCloud",
+    "mcap": 165894788.22759524,
+    "stars": 718,
+    "score": 40,
+    "reasons": [
+      "very large mcap",
+      "718\u2605 active repo",
+      "recent commits",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "Verifiable execution via EigenCompute. Deterministic LLM inf"
+  },
+  {
+    "ticker": "MINIMA",
+    "name": "Minima",
+    "mcap": 3167276.650539222,
+    "stars": 0,
+    "score": 40,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "low liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "physical_machines",
+    "thesis": "Ultra-lean blockchain. Every phone runs a node. $3.2M mcap."
+  },
+  {
+    "ticker": "NTX",
+    "name": "NuNet",
+    "mcap": 1673161.190301224,
+    "stars": 0,
+    "score": 35,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "decent liquidity"
+    ],
+    "category": "compute_orchestration",
+    "thesis": "Decentralized compute orchestration. Live March 2026."
+  },
+  {
+    "ticker": "FLOCK",
+    "name": "FLock",
+    "mcap": 13485872.536945682,
+    "stars": 0,
+    "score": 35,
+    "reasons": [
+      "small mcap (<$20M)",
+      "high liquidity"
+    ],
+    "category": "decentralized_training",
+    "thesis": "Decentralized federated training. Closed source."
+  },
+  {
+    "ticker": "AUKI",
+    "name": "Auki Labs",
+    "mcap": 23172936.491356295,
+    "stars": 47,
+    "score": 35,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "47\u2605 repo",
+      "recent commits",
+      "low liquidity"
+    ],
+    "category": "physical_ai",
+    "thesis": "Spatial infrastructure for robots/AI. Posemesh protocol."
+  },
+  {
+    "ticker": "AKT",
+    "name": "Akash Network",
+    "mcap": 153210449.5130995,
+    "stars": 1108,
+    "score": 35,
+    "reasons": [
+      "very large mcap",
+      "1108\u2605 active repo",
+      "recent commits",
+      "decent liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Reverse-auction cloud. $5M+ cumulative spend. Burn-Mint Equi"
+  },
+  {
+    "ticker": "VVV",
+    "name": "Venice",
+    "mcap": 0,
+    "stars": 135,
+    "score": 35,
+    "reasons": [
+      "no mcap data",
+      "135\u2605 active repo",
+      "recent commits",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "Tokenized inference capacity. VVV \u2192 DIEM ($1/day API credit)"
+  },
+  {
+    "ticker": "NILL",
+    "name": "Nillion",
+    "mcap": 21106885.392678,
+    "stars": 0,
+    "score": 35,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "data_proofs",
+    "thesis": "Blind computation. Privacy-preserving AI inference. $21M mca"
+  },
+  {
+    "ticker": "GNS",
+    "name": "Gensyn",
+    "mcap": 27265126.300056837,
+    "stars": 0,
+    "score": 35,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "high liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "decentralized_training",
+    "thesis": "Decentralized ML training verification. Cambridge math guy."
+  },
+  {
+    "ticker": "POND",
+    "name": "Marlin",
+    "mcap": 5810628.461606951,
+    "stars": 0,
+    "score": 35,
+    "reasons": [
+      "small mcap (<$20M)",
+      "high liquidity"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Network protocol layer for relay networks. $5.8M mcap."
+  },
+  {
+    "ticker": "NOS",
+    "name": "Nosana",
+    "mcap": 28382158.56385033,
+    "stars": 2,
+    "score": 30,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "2\u2605 small repo",
+      "recent commits",
+      "low liquidity"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Solana smart-contract GPU marketplace. NOS/USDC-funded compu"
+  },
+  {
+    "ticker": "DES",
+    "name": "Desearch",
+    "mcap": 3276319.2822682126,
+    "stars": 0,
+    "score": 30,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "low liquidity"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Decentralized search via Bittensor SN22."
+  },
+  {
+    "ticker": "GIZA",
+    "name": "Giza",
+    "mcap": 306640.27317028557,
+    "stars": 0,
+    "score": 30,
+    "reasons": [
+      "tiny mcap (<$5M)",
+      "low liquidity"
+    ],
+    "category": "agent_economy",
+    "thesis": "AI agents on-chain. $0.3M mcap."
+  },
+  {
+    "ticker": "SAHARA",
+    "name": "Sahara AI",
+    "mcap": 28063505.56695949,
+    "stars": 0,
+    "score": 25,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "high liquidity"
+    ],
+    "category": "data_provenance",
+    "thesis": "AI asset provenance + verifiable data/compute."
+  },
+  {
+    "ticker": "RECALL",
+    "name": "Recall",
+    "mcap": 0,
+    "stars": 957,
+    "score": 25,
+    "reasons": [
+      "no mcap data",
+      "957\u2605 active repo",
+      "recent commits"
+    ],
+    "category": "agent_economy",
+    "thesis": "Agent memory + provenance infrastructure."
+  },
+  {
+    "ticker": "ATH",
+    "name": "Aethir",
+    "mcap": 82597872.26464719,
+    "stars": 0,
+    "score": 20,
+    "reasons": [
+      "large mcap",
+      "decent liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Enterprise GPU business. $3.06M 30d fees, $612k protocol rev"
+  },
+  {
+    "ticker": "WMT",
+    "name": "World Mobile",
+    "mcap": 27935504.84555031,
+    "stars": 0,
+    "score": 20,
+    "reasons": [
+      "mid mcap (<$50M)",
+      "decent liquidity"
+    ],
+    "category": "physical_machines",
+    "thesis": "Decentralized telecom. Node network. $27.9M mcap."
+  },
+  {
+    "ticker": "FLT",
+    "name": "Fluence",
+    "mcap": 0,
+    "stars": 987,
+    "score": 15,
+    "reasons": [
+      "no mcap data",
+      "987\u2605 active repo"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "Production CPU/GPU cloud. Guardian verification model."
+  },
+  {
+    "ticker": "CHUTES",
+    "name": "Chutes",
+    "mcap": 93952582.76890007,
+    "stars": 0,
+    "score": 15,
+    "reasons": [
+      "large mcap",
+      "low liquidity",
+      "tier 1 thesis fit"
+    ],
+    "category": "verifiable_execution",
+    "thesis": "Decentralized serverless AI inference. $5.33M annualized rev"
+  },
+  {
+    "ticker": "VIRTUAL",
+    "name": "Virtuals Protocol",
+    "mcap": 0,
+    "stars": 0,
+    "score": 10,
+    "reasons": [
+      "no mcap data",
+      "tier 1 thesis fit"
+    ],
+    "category": "agent_economy",
+    "thesis": "Agent-services economy. ACP: 155k jobs, $398k 30d revenue, 3"
+  },
+  {
+    "ticker": "LITKEY",
+    "name": "Lit Protocol",
+    "mcap": 0,
+    "stars": 0,
+    "score": 10,
+    "reasons": [
+      "no mcap data",
+      "tier 1 thesis fit"
+    ],
+    "category": "agent_economy",
+    "thesis": "Agent-key/security layer. TEE code execution + on-chain-gove"
+  },
+  {
+    "ticker": "OPEN",
+    "name": "OpenLedger",
+    "mcap": 32020.27368170167,
+    "stars": 0,
+    "score": 0,
+    "reasons": [
+      "no mcap data",
+      "low liquidity"
+    ],
+    "category": "provenance",
+    "thesis": "OP Stack L2 for AI data attribution. Proof of Attribution."
+  },
+  {
+    "ticker": "IO",
+    "name": "io.net",
+    "mcap": 0,
+    "stars": 0,
+    "score": 0,
+    "reasons": [
+      "no mcap data"
+    ],
+    "category": "decentralized_compute",
+    "thesis": "GPU cloud + inference + agents. Claims $8M enterprise revenu"
+  },
+  {
+    "ticker": "AO",
+    "name": "AO (Arweave)",
+    "mcap": 124626810.87865222,
+    "stars": 0,
+    "score": 0,
+    "reasons": [
+      "very large mcap",
+      "decent liquidity"
+    ],
+    "category": "persistent_compute",
+    "thesis": "Persistent autonomous processes over permanent storage. Earl"
+  },
+  {
+    "ticker": "ARBIUS",
+    "name": "Arbius",
+    "mcap": 92115.63423149983,
+    "stars": 0,
+    "score": 0,
+    "reasons": [
+      "no mcap data",
+      "low liquidity"
+    ],
+    "category": "agent_economy",
+    "thesis": "AI agent network. $0.1M mcap \u2014 ultra micro."
+  },
+  {
+    "ticker": "COOKIE",
+    "name": "Cookie DAO",
+    "mcap": 0,
+    "stars": 0,
+    "score": 0,
+    "reasons": [
+      "no mcap data"
+    ],
+    "category": "data_provenance",
+    "thesis": "AI agent data. $9.1M mcap."
+  }
+]
