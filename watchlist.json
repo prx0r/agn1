@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "updated": "2026-08-20",
+  "thesis": "verifiable autonomous infrastructure",
+  "rule": "Never rank by transaction count. Rank by independently verified economic relationship.",
+  "projects": {
+    "PHA": {
+      "name": "Phala Network",
+      "coingecko_id": "pha",
+      "defillama_slug": null,
+      "github": "Phala-Network/phala-blockchain",
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "TEE AI cloud + attested agents. TDX + NVIDIA confidential GPU. 30.5B tokens/day via OpenRouter.",
+      "key_metric": "OpenRouter traffic per $FDV"
+    },
+    "OLAS": {
+      "name": "Autonolas",
+      "coingecko_id": "autonolas",
+      "defillama_slug": null,
+      "github": "valory-xyz/autonolas-registries",
+      "category": "agent_economy",
+      "tier": 1,
+      "thesis": "Agents hiring agents. Mech Marketplace. 14M agent-to-agent transactions.",
+      "key_metric": "economically independent agents"
+    },
+    "PEAQ": {
+      "name": "peaq",
+      "coingecko_id": "peaq-2",
+      "defillama_slug": "peaq",
+      "github": "peaqnetwork/peaq-network-node",
+      "category": "physical_machines",
+      "tier": 1,
+      "thesis": "Economic layer for machines as autonomous actors. SDK + ROS2 robotics.",
+      "key_metric": "machine identities registered"
+    },
+    "ACU": {
+      "name": "Acurast",
+      "coingecko_id": "acurast",
+      "defillama_slug": null,
+      "github": "Acurast/acurast-cli",
+      "category": "attested_compute",
+      "tier": 1,
+      "thesis": "Decentralized compute via smartphone TEEs. ~300K compute units.",
+      "key_metric": "eligible processors + job success rate"
+    },
+    "ZKP": {
+      "name": "zkPass",
+      "coingecko_id": "zkpass",
+      "defillama_slug": null,
+      "github": "zkPassOfficial/Transgate-JS-SDK",
+      "category": "data_proofs",
+      "tier": 1,
+      "thesis": "zkTLS: prove facts from HTTPS without exposing data.",
+      "key_metric": "proof reliability + trust boundary"
+    },
+    "LA": {
+      "name": "Lagrange",
+      "coingecko_id": "lagrange",
+      "defillama_slug": null,
+      "github": "Lagrange-Labs/deep-prove",
+      "category": "proof_generation",
+      "tier": 1,
+      "thesis": "ZK prover network + zkML. 3M+ inferences proven.",
+      "key_metric": "proof cost + latency"
+    },
+    "BREV": {
+      "name": "Brevis",
+      "coingecko_id": "brevis",
+      "defillama_slug": null,
+      "github": "brevis-network/pico",
+      "category": "proof_generation",
+      "tier": 1,
+      "thesis": "ZK coprocessor. Real-time ETH proving. Sherlock audited.",
+      "key_metric": "proving cost + EF target compliance"
+    },
+    "HONEY": {
+      "name": "Hivemapper",
+      "coingecko_id": "hivemapper",
+      "defillama_slug": "hivemapper",
+      "github": "Hivemapper/hive-py",
+      "category": "physical_ai",
+      "tier": 2,
+      "thesis": "Decentralized mapping via dashcams. Bee Maps commercial arm.",
+      "key_metric": "Bee Maps revenue (token dying)"
+    },
+    "VANA": {
+      "name": "Vana",
+      "coingecko_id": "vana",
+      "defillama_slug": "vana",
+      "github": "vana-com/personal-server",
+      "category": "data_provenance",
+      "tier": 2,
+      "thesis": "User-owned data protocol. L1 blockchain. DataDAOs.",
+      "key_metric": "active DataDAOs + users"
+    },
+    "OPEN": {
+      "name": "OpenLedger",
+      "coingecko_id": "openledger",
+      "defillama_slug": "openledger",
+      "github": null,
+      "category": "provenance",
+      "tier": 2,
+      "thesis": "OP Stack L2 for AI data attribution. Proof of Attribution.",
+      "key_metric": "verifiable production usage"
+    },
+    "SAHARA": {
+      "name": "Sahara AI",
+      "coingecko_id": "sahara-ai",
+      "defillama_slug": null,
+      "github": null,
+      "category": "data_provenance",
+      "tier": 2,
+      "thesis": "AI asset provenance + verifiable data/compute.",
+      "key_metric": "revenue + usage"
+    },
+    "NTX": {
+      "name": "NuNet",
+      "coingecko_id": "nunet",
+      "defillama_slug": null,
+      "github": null,
+      "category": "compute_orchestration",
+      "tier": 2,
+      "thesis": "Decentralized compute orchestration. Live March 2026.",
+      "key_metric": "active workloads + provider count"
+    },
+    "FLT": {
+      "name": "Fluence",
+      "coingecko_id": "fluence",
+      "defillama_slug": null,
+      "github": "fluencelabs/nox",
+      "category": "decentralized_compute",
+      "tier": 2,
+      "thesis": "Production CPU/GPU cloud. Guardian verification model.",
+      "key_metric": "GPU utilization + SLA compliance"
+    },
+    "FLOCK": {
+      "name": "FLock",
+      "coingecko_id": "flock-2",
+      "defillama_slug": "flock",
+      "github": null,
+      "category": "decentralized_training",
+      "tier": 2,
+      "thesis": "Decentralized federated training. Closed source.",
+      "key_metric": "training nodes + model count"
+    },
+    "AUKI": {
+      "name": "Auki Labs",
+      "coingecko_id": "auki-labs",
+      "defillama_slug": "auki",
+      "github": "aukilabs/posemesh",
+      "category": "physical_ai",
+      "tier": 2,
+      "thesis": "Spatial infrastructure for robots/AI. Posemesh protocol.",
+      "key_metric": "enterprise customers + deployments"
+    },
+    "CHUTES": {
+      "name": "Chutes",
+      "coingecko_id": null,
+      "defillama_slug": "chutes",
+      "github": null,
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "Decentralized serverless AI inference. $5.33M annualized revenue. Bittensor SN64.",
+      "key_metric": "revenue per GPU + subsidy ratio",
+      "bittensor_netuid": 64
+    }
+  },
+  "bittensor_subnets": {
+    "4": {"name": "Targon", "category": "verifiable_execution"},
+    "28": {"name": "gm", "category": "agent_economy"},
+    "51": {"name": "Lium", "category": "decentralized_compute"},
+    "53": {"name": "engy", "category": "proof_generation"},
+    "64": {"name": "Chutes", "category": "verifiable_execution"},
+    "80": {"name": "OpenRoboto", "category": "physical_ai"},
+    "90": {"name": "KubeTEE", "category": "verifiable_execution"},
+    "108": {"name": "Agent Launchpad", "category": "agent_economy"},
+    "118": {"name": "Ditto", "category": "agent_economy"}
+  }
+}
