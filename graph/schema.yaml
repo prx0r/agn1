@@ -1,0 +1,102 @@
+# Graph Schema — source of truth
+# Edit here, run `python3 sync_schema.py` to apply
+
+nodes:
+  Project:
+    properties:
+      ticker: string (required, indexed)
+      name: string
+      category: string
+      tier: int
+      mcap: float
+      thesis: string
+    indexes: [ticker]
+
+  BittensorSubnet:
+    properties:
+      netuid: int (required, indexed)
+      name: string
+      category: string
+    indexes: [netuid]
+
+  Category:
+    properties:
+      name: string (required, indexed)
+    indexes: [name]
+
+  Technology:
+    properties:
+      name: string (required, indexed)
+      type: string
+    indexes: [name]
+
+  Token:
+    properties:
+      symbol: string (required, indexed)
+      coingecko_id: string
+      defillama_slug: string
+    indexes: [symbol]
+
+  Decision:
+    properties:
+      id: string (required, indexed)
+      action: string  # BUY | SELL | REBALANCE | NOTHING
+      project_ticker: string
+      weight: float
+      thesis: string
+      confidence: float
+      timestamp: string
+    indexes: [id]
+
+  Outcome:
+    properties:
+      id: string (required, indexed)
+      decision_id: string
+      return_30d: float
+      return_90d: float
+      thesis_worked: string
+      lesson: string
+    indexes: [id]
+
+  ResearchNote:
+    properties:
+      id: string (required, indexed)
+      project_ticker: string
+      thesis: string
+      evidence: string
+      risks: string
+      timestamp: string
+    indexes: [id]
+
+relationships:
+  IN_CATEGORY:
+    from: [Project, BittensorSubnet]
+    to: Category
+
+  COMPETES_WITH:
+    from: [Project]
+    to: [Project]
+
+  IMPLEMENTS:
+    from: [Project]
+    to: [Technology]
+
+  IS_SUBNET:
+    from: [Project]
+    to: [BittensorSubnet]
+
+  HAS_TOKEN:
+    from: [Project]
+    to: [Token]
+
+  DECIDED_BY:
+    from: [Decision]
+    to: [Project]
+
+  PRODUCED:
+    from: [Decision]
+    to: [Outcome]
+
+  LED_TO:
+    from: [ResearchNote]
+    to: [Decision]
