@@ -1,0 +1,312 @@
+[
+  {
+    "ticker": "OPEN",
+    "name": "OpenLedger",
+    "category": "provenance",
+    "thesis": "",
+    "market_data": {
+      "mcap": 32020.27368170167,
+      "price": 0.06872,
+      "vol24h": 0.01374402242364092,
+      "change24h": null
+    },
+    "revenue": {
+      "verified": "verified_fees",
+      "fees_annual": 355510,
+      "revenue_annual": 355510
+    },
+    "dev_health": {
+      "stars": 0,
+      "language": null,
+      "pushed": null
+    },
+    "bull_case": [
+      "tiny mcap $0.0M \u2014 high asymmetry",
+      "$0.36M annualized revenue",
+      "cheap P/S 0.1x"
+    ],
+    "bear_case": [
+      "no public repo"
+    ],
+    "score": 70
+  },
+  {
+    "ticker": "CHUTES",
+    "name": "Chutes",
+    "category": "verifiable_execution",
+    "thesis": "",
+    "market_data": {
+      "mcap": 92356645.75957513,
+      "price": 16.14,
+      "vol24h": 1418480.7754122315,
+      "change24h": 8.22031487846756
+    },
+    "revenue": {
+      "verified": "verified_revenue",
+      "fees_annual": 4993930,
+      "revenue_annual": 4993930
+    },
+    "dev_health": {
+      "stars": 0,
+      "language": null,
+      "pushed": null
+    },
+    "bull_case": [
+      "$5.0M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "large mcap $92.5M limits upside",
+      "no public repo"
+    ],
+    "score": 60
+  },
+  {
+    "ticker": "ATH",
+    "name": "Aethir",
+    "category": "decentralized_compute",
+    "thesis": "",
+    "market_data": {
+      "mcap": 81942865.82058139,
+      "price": 0.00407093,
+      "vol24h": 7251231.017801699,
+      "change24h": 8.342645606448611
+    },
+    "revenue": {
+      "verified": "verified_revenue",
+      "fees_annual": 14552185,
+      "revenue_annual": 2910510
+    },
+    "dev_health": {
+      "stars": 0,
+      "language": null,
+      "pushed": null
+    },
+    "bull_case": [
+      "$3.0M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "large mcap $82.3M limits upside",
+      "no public repo"
+    ],
+    "score": 55
+  },
+  {
+    "ticker": "MINIMA",
+    "name": "Minima",
+    "category": "physical_machines",
+    "thesis": "",
+    "market_data": {
+      "mcap": 3077798.703291597,
+      "price": 0.00441088,
+      "vol24h": 18542.39614674915,
+      "change24h": 7.0739287083546865
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 0,
+      "language": null,
+      "pushed": null
+    },
+    "bull_case": [
+      "tiny mcap $3.1M \u2014 high asymmetry",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 55
+  },
+  {
+    "ticker": "PHA",
+    "name": "Phala Network",
+    "category": "verifiable_execution",
+    "thesis": "",
+    "market_data": {
+      "mcap": 19334824.791503113,
+      "price": 0.02300406,
+      "vol24h": 6921304.771143863,
+      "change24h": 7.848686045070168
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 371,
+      "language": "Rust",
+      "pushed": "2026-05-15"
+    },
+    "bull_case": [
+      "small mcap $19.4M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  },
+  {
+    "ticker": "OLAS",
+    "name": "Autonolas",
+    "category": "agent_economy",
+    "thesis": "",
+    "market_data": {
+      "mcap": 6227741.466564314,
+      "price": 0.02132476,
+      "vol24h": 136785.46898727588,
+      "change24h": 12.637588730385099
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 15,
+      "language": "Solidity",
+      "pushed": "2026-07-16"
+    },
+    "bull_case": [
+      "small mcap $6.2M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  },
+  {
+    "ticker": "ZKP",
+    "name": "zkPass",
+    "category": "data_proofs",
+    "thesis": "",
+    "market_data": {
+      "mcap": 8230626.685897415,
+      "price": 0.04081302,
+      "vol24h": 6157790.778886913,
+      "change24h": 3.958694856080573
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 40,
+      "language": "TypeScript",
+      "pushed": "2025-10-21"
+    },
+    "bull_case": [
+      "small mcap $8.3M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  },
+  {
+    "ticker": "LA",
+    "name": "Lagrange",
+    "category": "proof_generation",
+    "thesis": "",
+    "market_data": {
+      "mcap": 10920521.27164393,
+      "price": 0.056583,
+      "vol24h": 11634719.43874234,
+      "change24h": 0.7152013199703879
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 3361,
+      "language": "Rust",
+      "pushed": "2026-05-31"
+    },
+    "bull_case": [
+      "small mcap $10.8M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  },
+  {
+    "ticker": "BREV",
+    "name": "Brevis",
+    "category": "proof_generation",
+    "thesis": "",
+    "market_data": {
+      "mcap": 17061209.898536425,
+      "price": 0.068245,
+      "vol24h": 3124755.3278268203,
+      "change24h": 7.793734031093015
+    },
+    "revenue": {
+      "verified": "unknown",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 102,
+      "language": "Rust",
+      "pushed": "2026-08-17"
+    },
+    "bull_case": [
+      "small mcap $17.1M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  },
+  {
+    "ticker": "MYSH",
+    "name": "MyShell",
+    "category": "agent_economy",
+    "thesis": "",
+    "market_data": {
+      "mcap": 5728546.169594412,
+      "price": 0.02121684,
+      "vol24h": 3192238.7834351836,
+      "change24h": 5.43958942537872
+    },
+    "revenue": {
+      "verified": "no_revenue_data",
+      "fees_annual": null,
+      "revenue_annual": null
+    },
+    "dev_health": {
+      "stars": 0,
+      "language": null,
+      "pushed": null
+    },
+    "bull_case": [
+      "small mcap $5.7M",
+      "tier 1 thesis fit"
+    ],
+    "bear_case": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "score": 50
+  }
+]
