@@ -164,17 +164,145 @@
       "thesis": "Decentralized serverless AI inference. $5.33M annualized revenue. Bittensor SN64.",
       "key_metric": "revenue per GPU + subsidy ratio",
       "bittensor_netuid": 64
+    },
+    "VIRTUAL": {
+      "name": "Virtuals Protocol",
+      "coingecko_id": "virtuals-protocol",
+      "defillama_slug": null,
+      "github": null,
+      "category": "agent_economy",
+      "tier": 1,
+      "thesis": "Agent-services economy. ACP: 155k jobs, $398k 30d revenue, 3.84k active wallets.",
+      "key_metric": "ACP job count + agent revenue"
+    },
+    "AKT": {
+      "name": "Akash Network",
+      "coingecko_id": "akash-network",
+      "defillama_slug": null,
+      "github": "akash-network/node",
+      "category": "decentralized_compute",
+      "tier": 1,
+      "thesis": "Reverse-auction cloud. $5M+ cumulative spend. Burn-Mint Equilibrium links demand to AKT.",
+      "key_metric": "BME compute spend + AkashML OpenRouter traffic"
+    },
+    "VVV": {
+      "name": "Venice",
+      "coingecko_id": "venice-protocol",
+      "defillama_slug": null,
+      "github": null,
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "Tokenized inference capacity. VVV → DIEM ($1/day API credit). 230+ models. x402 wallet auth.",
+      "key_metric": "DIEM market value vs API cost parity"
+    },
+    "0G": {
+      "name": "0G",
+      "coingecko_id": "zero-gravity",
+      "defillama_slug": null,
+      "github": null,
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "Crypto-native AI cloud. OpenAI-compatible API over decentralized providers. On-chain settlement.",
+      "key_metric": "daily inference requests + node count (unverified)"
+    },
+    "EIGEN": {
+      "name": "EigenCloud",
+      "coingecko_id": "eigenlayer",
+      "defillama_slug": null,
+      "github": "layr-labs/eigenlayer-contracts",
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "Verifiable execution via EigenCompute. Deterministic LLM inference with <2% overhead.",
+      "key_metric": "bit-exact inference verification + cost"
+    },
+    "LITKEY": {
+      "name": "Lit Protocol",
+      "coingecko_id": "lit-entry",
+      "defillama_slug": null,
+      "github": "LIT-Protocol/OADevTooling",
+      "category": "agent_economy",
+      "tier": 1,
+      "thesis": "Agent-key/security layer. TEE code execution + on-chain-governed keys. $400M+ secured.",
+      "key_metric": "wallets secured + x402 integration"
+    },
+    "ATH": {
+      "name": "Aethir",
+      "coingecko_id": "aethir",
+      "defillama_slug": "aethir",
+      "github": null,
+      "category": "decentralized_compute",
+      "tier": 1,
+      "thesis": "Enterprise GPU business. $3.06M 30d fees, $612k protocol revenue. Enterprise coordination.",
+      "key_metric": "protocol revenue trend + holder revenue"
+    },
+    "NOS": {
+      "name": "Nosana",
+      "coingecko_id": "nosana",
+      "defillama_slug": null,
+      "github": "nosana-ci/nosana-node",
+      "category": "decentralized_compute",
+      "tier": 2,
+      "thesis": "Solana smart-contract GPU marketplace. NOS/USDC-funded compute. Verified program builds.",
+      "key_metric": "job completion rate + provider count"
+    },
+    "IO": {
+      "name": "io.net",
+      "coingecko_id": "io-net",
+      "defillama_slug": null,
+      "github": null,
+      "category": "decentralized_compute",
+      "tier": 2,
+      "thesis": "GPU cloud + inference + agents. Claims $8M enterprise revenue. Incentive Dynamic Engine.",
+      "key_metric": "verified utilization/revenue"
+    },
+    "AO": {
+      "name": "AO (Arweave)",
+      "coingecko_id": "arweave",
+      "defillama_slug": null,
+      "github": "ArweaveTeam/ao",
+      "category": "persistent_compute",
+      "tier": 2,
+      "thesis": "Persistent autonomous processes over permanent storage. Early mainnet.",
+      "key_metric": "active processes + state persistence"
+    },
+    "RECALL": {
+      "name": "Recall",
+      "coingecko_id": "recall-network",
+      "defillama_slug": null,
+      "github": null,
+      "category": "agent_economy",
+      "tier": 2,
+      "thesis": "Agent memory + provenance infrastructure.",
+      "key_metric": "active agents + memory operations"
+    },
+    "DES": {
+      "name": "Desearch",
+      "coingecko_id": null,
+      "defillama_slug": null,
+      "github": null,
+      "category": "decentralized_compute",
+      "tier": 2,
+      "thesis": "Decentralized search via Bittensor SN22.",
+      "key_metric": "search quality + usage",
+      "bittensor_netuid": 22
     }
   },
   "bittensor_subnets": {
     "4": {"name": "Targon", "category": "verifiable_execution"},
+    "15": {"name": "ORO", "category": "agent_economy"},
+    "22": {"name": "Desearch", "category": "decentralized_compute"},
     "28": {"name": "gm", "category": "agent_economy"},
+    "31": {"name": "rec4ll", "category": "agent_economy"},
     "51": {"name": "Lium", "category": "decentralized_compute"},
     "53": {"name": "engy", "category": "proof_generation"},
+    "60": {"name": "Bitsec", "category": "verifiable_execution"},
+    "62": {"name": "Ridges", "category": "agent_economy"},
     "64": {"name": "Chutes", "category": "verifiable_execution"},
     "80": {"name": "OpenRoboto", "category": "physical_ai"},
+    "87": {"name": "Provenonce", "category": "proof_generation"},
     "90": {"name": "KubeTEE", "category": "verifiable_execution"},
     "108": {"name": "Agent Launchpad", "category": "agent_economy"},
+    "11": {"name": "TrajectoryRL", "category": "agent_economy"},
     "118": {"name": "Ditto", "category": "agent_economy"}
   }
 }
