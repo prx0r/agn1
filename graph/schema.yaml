@@ -1,102 +1,84 @@
-# Graph Schema — source of truth
-# Edit here, run `python3 sync_schema.py` to apply
+# ============================================================
+# AGN1 GRAPH SCHEMA — parent schema for all graph collections
+# ============================================================
+# Edit this file → run sync_schema.py to apply everywhere.
+#
+# Structure:
+#   schema.yaml          ← THIS FILE (parent)
+#   collections/
+#     projects.yaml      ← project-specific types
+#     bittensor.yaml     ← bittensor-specific types
+#     decisions.yaml     ← research/decision types
+#
+# Each collection inherits from parent, can add its own types.
+# Relationship rules enforce which nodes can connect to which.
+# ============================================================
 
-nodes:
-  Project:
-    properties:
-      ticker: string (required, indexed)
-      name: string
-      category: string
-      tier: int
-      mcap: float
-      thesis: string
-    indexes: [ticker]
-
-  BittensorSubnet:
-    properties:
-      netuid: int (required, indexed)
-      name: string
-      category: string
-    indexes: [netuid]
-
+# Global node types (available in ALL collections)
+global_nodes:
   Category:
     properties:
-      name: string (required, indexed)
+      name: string (required)
     indexes: [name]
+    description: "Thesis category (verifiable_execution, agent_economy, etc.)"
 
   Technology:
     properties:
-      name: string (required, indexed)
+      name: string (required)
       type: string
     indexes: [name]
+    description: "Technology primitive (TEE, zkML, ERC-8004, etc.)"
 
-  Token:
+  Standard:
     properties:
-      symbol: string (required, indexed)
-      coingecko_id: string
-      defillama_slug: string
-    indexes: [symbol]
+      name: string (required)
+      url: string
+    indexes: [name]
+    description: "Industry standard (ERC-8004, x402, etc.)"
 
-  Decision:
+  Person:
     properties:
-      id: string (required, indexed)
-      action: string  # BUY | SELL | REBALANCE | NOTHING
-      project_ticker: string
-      weight: float
-      thesis: string
-      confidence: float
-      timestamp: string
-    indexes: [id]
+      name: string (required)
+      github: string
+      role: string
+    indexes: [name]
+    description: "Key developer/researcher"
 
-  Outcome:
+  Source:
     properties:
-      id: string (required, indexed)
-      decision_id: string
-      return_30d: float
-      return_90d: float
-      thesis_worked: string
-      lesson: string
-    indexes: [id]
+      name: string (required)
+      url: string
+      type: string
+    indexes: [name]
+    description: "Data source (DefiLlama, CoinGecko, GitHub, etc.)"
 
-  ResearchNote:
-    properties:
-      id: string (required, indexed)
-      project_ticker: string
-      thesis: string
-      evidence: string
-      risks: string
-      timestamp: string
-    indexes: [id]
-
-relationships:
+# Global relationship types (available in ALL collections)
+global_relationships:
   IN_CATEGORY:
-    from: [Project, BittensorSubnet]
+    from: "*"  # any node can link to a category
     to: Category
 
-  COMPETES_WITH:
-    from: [Project]
-    to: [Project]
+  USES_TECHNOLOGY:
+    from: "*"
+    to: Technology
 
-  IMPLEMENTS:
-    from: [Project]
-    to: [Technology]
+  FOLLOWS_STANDARD:
+    from: "*"
+    to: Standard
 
-  IS_SUBNET:
-    from: [Project]
-    to: [BittensorSubnet]
+  CONTRIBUTED_BY:
+    from: "*"
+    to: Person
 
-  HAS_TOKEN:
-    from: [Project]
-    to: [Token]
+  REPORTED_BY:
+    from: "*"
+    to: Source
 
-  DECIDED_BY:
-    from: [Decision]
-    to: [Project]
-
-  PRODUCED:
-    from: [Decision]
-    to: [Outcome]
-
-  LED_TO:
-    from: [ResearchNote]
-    to: [Decision]
+# Collection-specific schemas (loaded from collections/*.yaml)
+collections:
+  projects:
+    file: collections/projects.yaml
+  bittensor:
+    file: collections/bittensor.yaml
+  decisions:
+    file: collections/decisions.yaml

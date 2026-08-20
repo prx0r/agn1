@@ -1,0 +1,85 @@
+# Decisions collection schema
+# Inherits global_nodes + global_relationships from parent
+
+nodes:
+  Decision:
+    properties:
+      id: string (required)
+      action: string  # BUY | SELL | REBALANCE | NOTHING | SIMULATE
+      project_ticker: string
+      weight: float
+      thesis: string
+      why_now: string
+      risks: string
+      confidence: float
+      timestamp: string
+      status: string  # proposed | executed | simulated
+    indexes: [id, project_ticker, action, status]
+    description: "A portfolio or research decision"
+
+  Outcome:
+    properties:
+      id: string (required)
+      decision_id: string
+      return_7d: float
+      return_30d: float
+      return_90d: float
+      thesis_worked: string  # yes | no | partly | unknown
+      lesson: string
+      measured_at: string
+    indexes: [id, decision_id]
+    description: "Outcome of a decision"
+
+  ResearchNote:
+    properties:
+      id: string (required)
+      project_ticker: string
+      title: string
+      thesis: string
+      evidence: string
+      bull_case: string
+      bear_case: string
+      crux: string
+      risks: string
+      valuation_bear: float
+      valuation_base: float
+      valuation_bull: float
+      confidence: float
+      timestamp: string
+    indexes: [id, project_ticker]
+    description: "Research analysis on a project"
+
+  Update:
+    properties:
+      id: string (required)
+      project_ticker: string
+      event: string
+      significance: string  # low | medium | high | critical
+      timestamp: string
+    indexes: [id, project_ticker, significance]
+    description: "Important change observed"
+
+relationships:
+  DECIDED_BY:
+    from: [Decision]
+    to: [Decision]  # chain of decisions
+
+  PRODUCED:
+    from: [Decision]
+    to: [Outcome]
+
+  BASED_ON:
+    from: [Decision]
+    to: [ResearchNote]
+
+  TRIGGERED_BY:
+    from: [Decision]
+    to: [Update]
+
+  SUPERSEDES:
+    from: [ResearchNote]
+    to: [ResearchNote]
+
+  REFERENCES:
+    from: [ResearchNote]
+    to: [Decision]

@@ -1,0 +1,76 @@
+# Projects collection schema
+# Inherits global_nodes + global_relationships from parent
+
+nodes:
+  Project:
+    properties:
+      ticker: string (required)
+      name: string
+      category: string
+      tier: int
+      mcap: float
+      fdv: float
+      thesis: string
+      key_metric: string
+      status: string  # active | watched | archived
+    indexes: [ticker, category, status]
+    description: "A crypto/AI project we track"
+
+  Token:
+    properties:
+      symbol: string (required)
+      coingecko_id: string
+      defillama_slug: string
+      price_usd: float
+      market_cap: float
+    indexes: [symbol]
+    description: "Token/market data for a project"
+
+  Repo:
+    properties:
+      full_name: string (required)
+      stars: int
+      forks: int
+      language: string
+      last_push: string
+    indexes: [full_name]
+    description: "GitHub repository"
+
+  Revenue:
+    properties:
+      project_ticker: string
+      source: string
+      annualized: float
+      daily_30d: float
+      timestamp: string
+    indexes: [project_ticker]
+    description: "Revenue/fee data point"
+
+relationships:
+  HAS_TOKEN:
+    from: [Project]
+    to: [Token]
+
+  HAS_REPO:
+    from: [Project]
+    to: [Repo]
+
+  HAS_REVENUE:
+    from: [Project]
+    to: [Revenue]
+
+  COMPETES_WITH:
+    from: [Project]
+    to: [Project]
+
+  COMPLEMENTS:
+    from: [Project]
+    to: [Project]
+
+  BUILT_ON:
+    from: [Project]
+    to: [Project]
+
+  IS_SUBNET_OF:
+    from: [Project]  # Chutes
+    to: [Project]    # Bittensor (if we add it)

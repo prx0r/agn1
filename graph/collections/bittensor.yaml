@@ -1,0 +1,63 @@
+# Bittensor collection schema
+# Inherits global_nodes + global_relationships from parent
+
+nodes:
+  Subnet:
+    properties:
+      netuid: int (required)
+      name: string
+      commodity: string
+      validator_method: string
+      anti_cheat: string
+      external_revenue_known: bool
+      external_revenue_usd: float
+    indexes: [netuid, name]
+    description: "A Bittensor subnet"
+
+  Miner:
+    properties:
+      hotkey: string (required)
+      subnet_netuid: int
+      emissions_per_day: float
+      stake: float
+    indexes: [hotkey]
+    description: "Miner in a subnet"
+
+  Validator:
+    properties:
+      hotkey: string (required)
+      subnet_netuid: int
+      stake: float
+      performance: float
+    indexes: [hotkey]
+    description: "Validator in a subnet"
+
+  Emission:
+    properties:
+      subnet_netuid: int
+      date: string
+      tao_per_day: float
+      usd_value: float
+    indexes: [subnet_netuid, date]
+    description: "Daily emission record"
+
+relationships:
+  MINED_BY:
+    from: [Subnet]
+    to: [Miner]
+
+  VALIDATED_BY:
+    from: [Subnet]
+    to: [Validator]
+
+  EMITS:
+    from: [Subnet]
+    to: [Emission]
+
+  SUBNET_OF:
+    from: [Subnet]
+    to: [Subnet]  # parent/child subnet relationships
+
+  USES_TECHNOLOGY:
+    from: [Subnet]
+    to: [Technology]  # inherited from global
