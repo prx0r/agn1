@@ -1,0 +1,202 @@
+[
+  {
+    "ticker": "PEAQ",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 0,
+        "daily_30d": 0.5900000000000002,
+        "annualized": null
+      },
+      "defillama_revenue": {
+        "daily_24h": 0,
+        "daily_30d": 0,
+        "annualized": null
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 45358099.80087629
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "HONEY",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 0.01,
+        "daily_30d": 768.99,
+        "annualized": 3.65
+      },
+      "defillama_revenue": {
+        "daily_24h": 0.01,
+        "daily_30d": 576.79,
+        "annualized": 3.65
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 3761563.362734385
+      }
+    },
+    "verdict": "low_revenue"
+  },
+  {
+    "ticker": "VANA",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 0.11,
+        "daily_30d": 143.75000000000009,
+        "annualized": 40.15
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 28031966.26132473
+      }
+    },
+    "verdict": "low_revenue"
+  },
+  {
+    "ticker": "OPEN",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 974,
+        "daily_30d": 41458,
+        "annualized": 355510
+      },
+      "defillama_revenue": {
+        "daily_24h": 974,
+        "daily_30d": 41458,
+        "annualized": 355510
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 34439394.03962376
+      }
+    },
+    "verdict": "verified_fees"
+  },
+  {
+    "ticker": "FLOCK",
+    "sources": {},
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "AUKI",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 0,
+        "daily_30d": 1286,
+        "annualized": null
+      },
+      "defillama_revenue": {
+        "daily_24h": 0,
+        "daily_30d": 1286,
+        "annualized": null
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": null
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "CHUTES",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 13682,
+        "daily_30d": 375682,
+        "annualized": 4993930
+      },
+      "defillama_revenue": {
+        "daily_24h": 13682,
+        "daily_30d": 375682,
+        "annualized": 4993930
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": null
+      }
+    },
+    "verdict": "verified_revenue"
+  },
+  {
+    "ticker": "ATH",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 39869,
+        "daily_30d": 2776323.3200000003,
+        "annualized": 14552185
+      },
+      "defillama_revenue": {
+        "daily_24h": 7974,
+        "daily_30d": 555262.26,
+        "annualized": 2910510
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 81432430.90980828
+      }
+    },
+    "verdict": "verified_revenue"
+  },
+  {
+    "ticker": "ARBIUS",
+    "sources": {
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 92115.63423149983
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "GIZA",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": 0,
+        "daily_30d": 2285,
+        "annualized": null
+      },
+      "defillama_revenue": {
+        "daily_24h": 0,
+        "daily_30d": 2285,
+        "annualized": null
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 308789.37439527095
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "MYSH",
+    "sources": {
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 5702859.367058282
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "MIND",
+    "sources": {
+      "defillama_fees": {
+        "daily_24h": null,
+        "daily_30d": null,
+        "annualized": null
+      },
+      "defillama_protocol": {
+        "tvl": 0,
+        "mcap": 6334025.108903948
+      }
+    },
+    "verdict": "no_revenue_data"
+  },
+  {
+    "ticker": "COOKIE",
+    "sources": {},
+    "verdict": "no_revenue_data"
+  }
+]
