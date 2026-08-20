@@ -1,0 +1,709 @@
+[
+  {
+    "ticker": "OPEN",
+    "name": "OpenLedger",
+    "score": 70,
+    "mcap": 32020.27368170167,
+    "rev_annual": 355510,
+    "stars": 0,
+    "category": "provenance",
+    "bull": [
+      "tiny mcap $0.0M \u2014 high asymmetry",
+      "$0.36M annualized revenue",
+      "cheap P/S 0.1x"
+    ],
+    "bear": [
+      "no public repo"
+    ],
+    "sources": 5
+  },
+  {
+    "ticker": "CHUTES",
+    "name": "Chutes",
+    "score": 60,
+    "mcap": 92466328.05823793,
+    "rev_annual": 4993930,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "$5.0M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "large mcap $92.5M limits upside",
+      "no public repo"
+    ],
+    "sources": 5
+  },
+  {
+    "ticker": "ATH",
+    "name": "Aethir",
+    "score": 55,
+    "mcap": 82262498.09221265,
+    "rev_annual": 2961245,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [
+      "$3.0M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "large mcap $82.3M limits upside",
+      "no public repo"
+    ],
+    "sources": 5
+  },
+  {
+    "ticker": "MINIMA",
+    "name": "Minima",
+    "score": 55,
+    "mcap": 3070076.7210643566,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "physical_machines",
+    "bull": [
+      "tiny mcap $3.1M \u2014 high asymmetry",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "PHA",
+    "name": "Phala Network",
+    "score": 50,
+    "mcap": 19411178.113867823,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "small mcap $19.4M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "OLAS",
+    "name": "Autonolas",
+    "score": 50,
+    "mcap": 6165364.99724903,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "small mcap $6.2M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "ZKP",
+    "name": "zkPass",
+    "score": 50,
+    "mcap": 8263380.1122398395,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "data_proofs",
+    "bull": [
+      "small mcap $8.3M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "LA",
+    "name": "Lagrange",
+    "score": 50,
+    "mcap": 10754559.167296302,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "proof_generation",
+    "bull": [
+      "small mcap $10.8M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "BREV",
+    "name": "Brevis",
+    "score": 50,
+    "mcap": 17073911.445549898,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "proof_generation",
+    "bull": [
+      "small mcap $17.1M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "MYSH",
+    "name": "MyShell",
+    "score": 50,
+    "mcap": 5696466.2745378455,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "small mcap $5.7M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "MIND",
+    "name": "Mind Network",
+    "score": 50,
+    "mcap": 6297961.578596404,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "small mcap $6.3M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "HONEY",
+    "name": "Hivemapper",
+    "score": 45,
+    "mcap": 3749781.7487359988,
+    "rev_annual": 3.65,
+    "stars": 0,
+    "category": "physical_ai",
+    "bull": [
+      "tiny mcap $3.7M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "minimal revenue $0.000M",
+      "expensive P/S 1027337.5x",
+      "no public repo"
+    ],
+    "sources": 5
+  },
+  {
+    "ticker": "NTX",
+    "name": "NuNet",
+    "score": 45,
+    "mcap": 1673883.4290472989,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "compute_orchestration",
+    "bull": [
+      "tiny mcap $1.7M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "VIRTUAL",
+    "name": "Virtuals Protocol",
+    "score": 45,
+    "mcap": 0,
+    "rev_annual": 9897705,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "$9.9M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "DES",
+    "name": "Desearch",
+    "score": 45,
+    "mcap": 3222573.506942266,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [
+      "tiny mcap $3.2M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "CORTEX",
+    "name": "Cortex",
+    "score": 45,
+    "mcap": 185776.2872948685,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "tiny mcap $0.2M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "ARBIUS",
+    "name": "Arbius",
+    "score": 45,
+    "mcap": 92115.63423149983,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "tiny mcap $0.1M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "GIZA",
+    "name": "Giza",
+    "score": 45,
+    "mcap": 306607.84018863144,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "tiny mcap $0.3M \u2014 high asymmetry"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "PEAQ",
+    "name": "peaq",
+    "score": 40,
+    "mcap": 45619346.55114804,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "physical_machines",
+    "bull": [
+      "mid mcap $45.6M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "ACU",
+    "name": "Acurast",
+    "score": 40,
+    "mcap": 47553949.07320373,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "attested_compute",
+    "bull": [
+      "mid mcap $47.6M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "FLOCK",
+    "name": "FLock",
+    "score": 40,
+    "mcap": 13493059.461783672,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_training",
+    "bull": [
+      "small mcap $13.5M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "VVV",
+    "name": "Venice",
+    "score": 40,
+    "mcap": 0,
+    "rev_annual": 4487675,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "$4.5M annualized revenue",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "0G",
+    "name": "0G",
+    "score": 40,
+    "mcap": 32291439.85100379,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "mid mcap $32.3M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "NILL",
+    "name": "Nillion",
+    "score": 40,
+    "mcap": 21057335.92448266,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "data_proofs",
+    "bull": [
+      "mid mcap $21.1M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "GNS",
+    "name": "Gensyn",
+    "score": 40,
+    "mcap": 27290185.88842018,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_training",
+    "bull": [
+      "mid mcap $27.3M",
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "POND",
+    "name": "Marlin",
+    "score": 40,
+    "mcap": 5796190.791870473,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [
+      "small mcap $5.8M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "SCRT",
+    "name": "Secret Network",
+    "score": 40,
+    "mcap": 7543962.067881665,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "small mcap $7.5M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "NYM",
+    "name": "Nym",
+    "score": 40,
+    "mcap": 15563692.414464016,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "small mcap $15.6M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "VANA",
+    "name": "Vana",
+    "score": 30,
+    "mcap": 27902650.68195558,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "data_provenance",
+    "bull": [
+      "mid mcap $27.9M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 4
+  },
+  {
+    "ticker": "SAHARA",
+    "name": "Sahara AI",
+    "score": 30,
+    "mcap": 28109930.940600324,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "data_provenance",
+    "bull": [
+      "mid mcap $28.1M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "AUKI",
+    "name": "Auki Labs",
+    "score": 30,
+    "mcap": 23982490.079581305,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "physical_ai",
+    "bull": [
+      "mid mcap $24.0M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 3
+  },
+  {
+    "ticker": "NOS",
+    "name": "Nosana",
+    "score": 30,
+    "mcap": 27957037.98951951,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [
+      "mid mcap $28.0M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "WMT",
+    "name": "World Mobile",
+    "score": 30,
+    "mcap": 27926512.223079104,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "physical_machines",
+    "bull": [
+      "mid mcap $27.9M"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "AKT",
+    "name": "Akash Network",
+    "score": 20,
+    "mcap": 152953209.27253756,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "very large mcap $153.0M",
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "EIGEN",
+    "name": "EigenCloud",
+    "score": 20,
+    "mcap": 166689273.18444368,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "verifiable_execution",
+    "bull": [
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "very large mcap $166.7M",
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 4
+  },
+  {
+    "ticker": "LITKEY",
+    "name": "Lit Protocol",
+    "score": 15,
+    "mcap": 0,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [
+      "tier 1 thesis fit"
+    ],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 0
+  },
+  {
+    "ticker": "AO",
+    "name": "AO (Arweave)",
+    "score": 10,
+    "mcap": 125057168.58553699,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "persistent_compute",
+    "bull": [],
+    "bear": [
+      "very large mcap $125.1M",
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "FLT",
+    "name": "Fluence",
+    "score": 5,
+    "mcap": 0,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 2
+  },
+  {
+    "ticker": "IO",
+    "name": "io.net",
+    "score": 5,
+    "mcap": 0,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "decentralized_compute",
+    "bull": [],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 0
+  },
+  {
+    "ticker": "RECALL",
+    "name": "Recall",
+    "score": 5,
+    "mcap": 0,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "agent_economy",
+    "bull": [],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 0
+  },
+  {
+    "ticker": "COOKIE",
+    "name": "Cookie DAO",
+    "score": 5,
+    "mcap": 0,
+    "rev_annual": 0,
+    "stars": 0,
+    "category": "data_provenance",
+    "bull": [],
+    "bear": [
+      "no verified revenue",
+      "no public repo"
+    ],
+    "sources": 1
+  }
+]
