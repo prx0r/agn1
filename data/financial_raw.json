@@ -1,0 +1,800 @@
+{
+  "PHA": {
+    "ticker": "PHA",
+    "name": "Phala Network",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "TEE AI cloud + attested agents. TDX + NVIDIA confidential GPU. 30.5B tokens/day via OpenRouter.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.02309057,
+      "mcap": 19411178.113867823,
+      "volume_24h": 6149841.818163049,
+      "change_24h": 7.86307514140592
+    }
+  },
+  "OLAS": {
+    "ticker": "OLAS",
+    "name": "Autonolas",
+    "category": "agent_economy",
+    "tier": 1,
+    "thesis": "Agents hiring agents. Mech Marketplace. 14M agent-to-agent transactions.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.02111048,
+      "mcap": 6165364.99724903,
+      "volume_24h": 129582.21629001046,
+      "change_24h": 11.578512951141523
+    }
+  },
+  "PEAQ": {
+    "ticker": "PEAQ",
+    "name": "peaq",
+    "category": "physical_machines",
+    "tier": 1,
+    "thesis": "Economic layer for machines as autonomous actors. SDK + ROS2 robotics.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.0187614,
+      "mcap": 45619346.55114804,
+      "volume_24h": 1420447.6358567015,
+      "change_24h": 11.062287231047302,
+      "tvl": 0,
+      "dl_mcap": 44663529.80021051,
+      "chains": []
+    }
+  },
+  "ACU": {
+    "ticker": "ACU",
+    "name": "Acurast",
+    "category": "attested_compute",
+    "tier": 1,
+    "thesis": "Decentralized compute via smartphone TEEs. ~300K compute units.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.134261,
+      "mcap": 47553949.07320373,
+      "volume_24h": 6836156.221372499,
+      "change_24h": 9.16195539982919
+    }
+  },
+  "ZKP": {
+    "ticker": "ZKP",
+    "name": "zkPass",
+    "category": "data_proofs",
+    "tier": 1,
+    "thesis": "zkTLS: prove facts from HTTPS without exposing data.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.04096972,
+      "mcap": 8263380.1122398395,
+      "volume_24h": 5805928.160839163,
+      "change_24h": 3.802862101855438
+    }
+  },
+  "LA": {
+    "ticker": "LA",
+    "name": "Lagrange",
+    "category": "proof_generation",
+    "tier": 1,
+    "thesis": "ZK prover network + zkML. 3M+ inferences proven.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.055502,
+      "mcap": 10754559.167296302,
+      "volume_24h": 11884833.291812532,
+      "change_24h": -1.7716715861393044
+    }
+  },
+  "BREV": {
+    "ticker": "BREV",
+    "name": "Brevis",
+    "category": "proof_generation",
+    "tier": 1,
+    "thesis": "ZK coprocessor. Real-time ETH proving. Sherlock audited.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.068283,
+      "mcap": 17073911.445549898,
+      "volume_24h": 2939514.034547168,
+      "change_24h": 7.304560226119773
+    }
+  },
+  "HONEY": {
+    "ticker": "HONEY",
+    "name": "Hivemapper",
+    "category": "physical_ai",
+    "tier": 2,
+    "thesis": "Decentralized mapping via dashcams. Bee Maps commercial arm.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "price_usd": 0.00057031,
+      "mcap": 3749781.7487359988,
+      "volume_24h": 128131.4811679692,
+      "change_24h": -4.415016287187243,
+      "tvl": 0,
+      "dl_mcap": 3742793.390084413,
+      "chains": [],
+      "fees_24h": 0.01,
+      "fees_30d": 768.99,
+      "fees_annualized": 3.65,
+      "revenue_24h": 0.01,
+      "revenue_30d": 576.79,
+      "revenue_annualized": 3.65
+    }
+  },
+  "VANA": {
+    "ticker": "VANA",
+    "name": "Vana",
+    "category": "data_provenance",
+    "tier": 2,
+    "thesis": "User-owned data protocol. L1 blockchain. DataDAOs.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "fees": "defillama_fees_api"
+    },
+    "metrics": {
+      "price_usd": 0.907569,
+      "mcap": 27902650.68195558,
+      "volume_24h": 1408637.0605547435,
+      "change_24h": 6.000021685217123,
+      "tvl": 0,
+      "dl_mcap": 27524460.329843514,
+      "chains": [],
+      "fees_24h": 0.11,
+      "fees_30d": 143.75000000000009,
+      "fees_annualized": 40.15
+    }
+  },
+  "OPEN": {
+    "ticker": "OPEN",
+    "name": "OpenLedger",
+    "category": "provenance",
+    "tier": 2,
+    "thesis": "OP Stack L2 for AI data attribution. Proof of Attribution.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "mcap_note": "DISCREPANCY: coingecko=32020 defillama=34217703",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "price_usd": 0.06872,
+      "mcap": 32020.27368170167,
+      "volume_24h": 0.01374402242364092,
+      "change_24h": null,
+      "tvl": 0,
+      "dl_mcap": 34217703.24893611,
+      "chains": [
+        "Ethereum",
+        "Binance",
+        "Open"
+      ],
+      "fees_24h": 974,
+      "fees_30d": 41458,
+      "fees_annualized": 355510,
+      "revenue_24h": 974,
+      "revenue_30d": 41458,
+      "revenue_annualized": 355510
+    }
+  },
+  "SAHARA": {
+    "ticker": "SAHARA",
+    "name": "Sahara AI",
+    "category": "data_provenance",
+    "tier": 2,
+    "thesis": "AI asset provenance + verifiable data/compute.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00786223,
+      "mcap": 28109930.940600324,
+      "volume_24h": 8347288.012072436,
+      "change_24h": 8.685980032911917
+    }
+  },
+  "NTX": {
+    "ticker": "NTX",
+    "name": "NuNet",
+    "category": "compute_orchestration",
+    "tier": 2,
+    "thesis": "Decentralized compute orchestration. Live March 2026.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00193295,
+      "mcap": 1673883.4290472989,
+      "volume_24h": 58067.19270347151,
+      "change_24h": 6.05711174251756
+    }
+  },
+  "FLT": {
+    "ticker": "FLT",
+    "name": "Fluence",
+    "category": "decentralized_compute",
+    "tier": 2,
+    "thesis": "Production CPU/GPU cloud. Guardian verification model.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00087302,
+      "mcap": 0,
+      "volume_24h": 7.90991989586107,
+      "change_24h": null
+    }
+  },
+  "FLOCK": {
+    "ticker": "FLOCK",
+    "name": "FLock",
+    "category": "decentralized_training",
+    "tier": 2,
+    "thesis": "Decentralized federated training. Closed source.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.03075009,
+      "mcap": 13493059.461783672,
+      "volume_24h": 2603802.210710789,
+      "change_24h": 8.72731305856239
+    }
+  },
+  "AUKI": {
+    "ticker": "AUKI",
+    "name": "Auki Labs",
+    "category": "physical_ai",
+    "tier": 2,
+    "thesis": "Spatial infrastructure for robots/AI. Posemesh protocol.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.0050372,
+      "mcap": 23982490.079581305,
+      "volume_24h": 87062.9592734205,
+      "change_24h": 18.470910397736247,
+      "tvl": 0,
+      "dl_mcap": 0,
+      "chains": []
+    }
+  },
+  "CHUTES": {
+    "ticker": "CHUTES",
+    "name": "Chutes",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "Decentralized serverless AI inference. $5.33M annualized revenue. Bittensor SN64.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "price_usd": 16.16,
+      "mcap": 92466328.05823793,
+      "volume_24h": 1405575.58184835,
+      "change_24h": 7.376316718596841,
+      "tvl": 43274489.92412869,
+      "dl_mcap": 0,
+      "chains": [
+        "Bittensor"
+      ],
+      "fees_24h": 13682,
+      "fees_30d": 375682,
+      "fees_annualized": 4993930,
+      "revenue_24h": 13682,
+      "revenue_30d": 375682,
+      "revenue_annualized": 4993930
+    }
+  },
+  "VIRTUAL": {
+    "ticker": "VIRTUAL",
+    "name": "Virtuals Protocol",
+    "category": "agent_economy",
+    "tier": 1,
+    "thesis": "Agent-services economy. ACP: 155k jobs, $398k 30d revenue, 3.84k active wallets.",
+    "provenance": {
+      "tvl": "defillama",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "tvl": 0,
+      "dl_mcap": 403370004.9608626,
+      "chains": [
+        "Base"
+      ],
+      "fees_24h": 27117,
+      "fees_30d": 895836,
+      "fees_annualized": 9897705,
+      "revenue_24h": 27117,
+      "revenue_30d": 895836,
+      "revenue_annualized": 9897705
+    }
+  },
+  "AKT": {
+    "ticker": "AKT",
+    "name": "Akash Network",
+    "category": "decentralized_compute",
+    "tier": 1,
+    "thesis": "Reverse-auction cloud. $5M+ cumulative spend. Burn-Mint Equilibrium links demand to AKT.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.515283,
+      "mcap": 152953209.27253756,
+      "volume_24h": 4793489.382818098,
+      "change_24h": 7.8037601310413125
+    }
+  },
+  "VVV": {
+    "ticker": "VVV",
+    "name": "Venice",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "Tokenized inference capacity. VVV \u2192 DIEM ($1/day API credit). 230+ models. x402 wallet auth.",
+    "provenance": {
+      "tvl": "defillama",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "tvl": 0,
+      "dl_mcap": 665848858.4472198,
+      "chains": [
+        "Base"
+      ],
+      "fees_24h": 12295,
+      "fees_30d": 638001,
+      "fees_annualized": 4487675,
+      "revenue_24h": 12295,
+      "revenue_30d": 638001,
+      "revenue_annualized": 4487675
+    }
+  },
+  "0G": {
+    "ticker": "0G",
+    "name": "0G",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "Crypto-native AI cloud. OpenAI-compatible API over decentralized providers. On-chain settlement.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.15147,
+      "mcap": 32291439.85100379,
+      "volume_24h": 6695472.797982454,
+      "change_24h": 8.502375813047685
+    }
+  },
+  "EIGEN": {
+    "ticker": "EIGEN",
+    "name": "EigenCloud",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "Verifiable execution via EigenCompute. Deterministic LLM inference with <2% overhead.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "fees": "defillama_fees_api"
+    },
+    "metrics": {
+      "price_usd": 0.190248,
+      "mcap": 166689273.18444368,
+      "volume_24h": 22642981.48739663,
+      "change_24h": 11.051333573555876,
+      "tvl": 6032441303.313276,
+      "dl_mcap": 161875370.27181566,
+      "chains": [
+        "Ethereum"
+      ],
+      "fees_24h": 6845,
+      "fees_30d": 495181.53,
+      "fees_annualized": 2498425
+    }
+  },
+  "LITKEY": {
+    "ticker": "LITKEY",
+    "name": "Lit Protocol",
+    "category": "agent_economy",
+    "tier": 1,
+    "thesis": "Agent-key/security layer. TEE code execution + on-chain-governed keys. $400M+ secured.",
+    "provenance": {},
+    "metrics": {}
+  },
+  "ATH": {
+    "ticker": "ATH",
+    "name": "Aethir",
+    "category": "decentralized_compute",
+    "tier": 1,
+    "thesis": "Enterprise GPU business. $3.06M 30d fees, $612k protocol revenue. Enterprise coordination.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama",
+      "fees": "defillama_fees_api",
+      "revenue": "defillama_revenue_api"
+    },
+    "metrics": {
+      "price_usd": 0.00408681,
+      "mcap": 82262498.09221265,
+      "volume_24h": 7164974.102783171,
+      "change_24h": 8.891724925572845,
+      "tvl": 0,
+      "dl_mcap": 80865831.63923533,
+      "chains": [
+        "Ethereum"
+      ],
+      "fees_24h": 40566,
+      "fees_30d": 2776323.3200000003,
+      "fees_annualized": 14806590,
+      "revenue_24h": 8113,
+      "revenue_30d": 555262.26,
+      "revenue_annualized": 2961245
+    }
+  },
+  "NOS": {
+    "ticker": "NOS",
+    "name": "Nosana",
+    "category": "decentralized_compute",
+    "tier": 2,
+    "thesis": "Solana smart-contract GPU marketplace. NOS/USDC-funded compute. Verified program builds.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.279571,
+      "mcap": 27957037.98951951,
+      "volume_24h": 433249.8104879296,
+      "change_24h": 4.8597092473068555
+    }
+  },
+  "IO": {
+    "ticker": "IO",
+    "name": "io.net",
+    "category": "decentralized_compute",
+    "tier": 2,
+    "thesis": "GPU cloud + inference + agents. Claims $8M enterprise revenue. Incentive Dynamic Engine.",
+    "provenance": {},
+    "metrics": {}
+  },
+  "AO": {
+    "ticker": "AO",
+    "name": "AO (Arweave)",
+    "category": "persistent_compute",
+    "tier": 2,
+    "thesis": "Persistent autonomous processes over permanent storage. Early mainnet.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 1.91,
+      "mcap": 125057168.58553699,
+      "volume_24h": 9638817.187525883,
+      "change_24h": 8.102918875631403
+    }
+  },
+  "RECALL": {
+    "ticker": "RECALL",
+    "name": "Recall",
+    "category": "agent_economy",
+    "tier": 2,
+    "thesis": "Agent memory + provenance infrastructure.",
+    "provenance": {},
+    "metrics": {}
+  },
+  "DES": {
+    "ticker": "DES",
+    "name": "Desearch",
+    "category": "decentralized_compute",
+    "tier": 2,
+    "thesis": "Decentralized search via Bittensor SN22.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.686714,
+      "mcap": 3222573.506942266,
+      "volume_24h": 15513.17070397124,
+      "change_24h": 7.709213278823225
+    }
+  },
+  "MINIMA": {
+    "ticker": "MINIMA",
+    "name": "Minima",
+    "category": "physical_machines",
+    "tier": 1,
+    "thesis": "Ultra-lean blockchain. Every phone runs a node. $3.2M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00439982,
+      "mcap": 3070076.7210643566,
+      "volume_24h": 18192.194105691382,
+      "change_24h": 6.809328350283915
+    }
+  },
+  "NILL": {
+    "ticker": "NILL",
+    "name": "Nillion",
+    "category": "data_proofs",
+    "tier": 1,
+    "thesis": "Blind computation. Privacy-preserving AI inference. $21M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.04214637,
+      "mcap": 21057335.92448266,
+      "volume_24h": 12737302.880892789,
+      "change_24h": -0.6441535043772487
+    }
+  },
+  "GNS": {
+    "ticker": "GNS",
+    "name": "Gensyn",
+    "category": "decentralized_training",
+    "tier": 1,
+    "thesis": "Decentralized ML training verification. Cambridge math guy.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.02091723,
+      "mcap": 27290185.88842018,
+      "volume_24h": 3706984.5245793364,
+      "change_24h": 5.434288065852119
+    }
+  },
+  "POND": {
+    "ticker": "POND",
+    "name": "Marlin",
+    "category": "decentralized_compute",
+    "tier": 2,
+    "thesis": "Network protocol layer for relay networks. $5.8M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00070447,
+      "mcap": 5796190.791870473,
+      "volume_24h": 1192912.1724022063,
+      "change_24h": 3.9187621829151684
+    }
+  },
+  "SCRT": {
+    "ticker": "SCRT",
+    "name": "Secret Network",
+    "category": "verifiable_execution",
+    "tier": 2,
+    "thesis": "Privacy-preserving smart contracts. TEE-based. $7.5M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.02089086,
+      "mcap": 7543962.067881665,
+      "volume_24h": 9314553.804285187,
+      "change_24h": -21.68509581833184
+    }
+  },
+  "NYM": {
+    "ticker": "NYM",
+    "name": "Nym",
+    "category": "agent_economy",
+    "tier": 2,
+    "thesis": "Mixnet for anonymous agent communication. $15.5M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.01854363,
+      "mcap": 15563692.414464016,
+      "volume_24h": 2875648.8766477746,
+      "change_24h": 0.901685731950414
+    }
+  },
+  "CORTEX": {
+    "ticker": "CORTEX",
+    "name": "Cortex",
+    "category": "verifiable_execution",
+    "tier": 2,
+    "thesis": "AI on-chain inference. $0.2M mcap \u2014 ultra micro.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.00077968,
+      "mcap": 185776.2872948685,
+      "volume_24h": 46742.27072189062,
+      "change_24h": null
+    }
+  },
+  "WMT": {
+    "ticker": "WMT",
+    "name": "World Mobile",
+    "category": "physical_machines",
+    "tier": 2,
+    "thesis": "Decentralized telecom. Node network. $27.9M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko"
+    },
+    "metrics": {
+      "price_usd": 0.03278241,
+      "mcap": 27926512.223079104,
+      "volume_24h": 1202358.9055613584,
+      "change_24h": 5.775291770678724
+    }
+  },
+  "ARBIUS": {
+    "ticker": "ARBIUS",
+    "name": "Arbius",
+    "category": "agent_economy",
+    "tier": 2,
+    "thesis": "AI agent network. $0.1M mcap \u2014 ultra micro.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.292337,
+      "mcap": 92115.63423149983,
+      "volume_24h": 18.845779293774626,
+      "change_24h": null,
+      "tvl": 0,
+      "dl_mcap": 92115.63423149983,
+      "chains": [
+        "Arbitrum"
+      ]
+    }
+  },
+  "GIZA": {
+    "ticker": "GIZA",
+    "name": "Giza",
+    "category": "agent_economy",
+    "tier": 2,
+    "thesis": "AI agents on-chain. $0.3M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.00090091,
+      "mcap": 306607.84018863144,
+      "volume_24h": 125.76441345122872,
+      "change_24h": 0.42777491463545153,
+      "tvl": 13697.274106910578,
+      "dl_mcap": 306180.481306393,
+      "chains": [
+        "Hyperliquid L1",
+        "Arbitrum",
+        "Base",
+        "Plasma"
+      ]
+    }
+  },
+  "MYSH": {
+    "ticker": "MYSH",
+    "name": "MyShell",
+    "category": "agent_economy",
+    "tier": 1,
+    "thesis": "AI agent platform. $5.6M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.02109802,
+      "mcap": 5696466.2745378455,
+      "volume_24h": 3783792.578847989,
+      "change_24h": 4.826197133913608,
+      "tvl": 0,
+      "dl_mcap": 5617536.240292184,
+      "chains": []
+    }
+  },
+  "MIND": {
+    "ticker": "MIND",
+    "name": "Mind Network",
+    "category": "verifiable_execution",
+    "tier": 1,
+    "thesis": "FHE for AI agents. $6.2M mcap.",
+    "provenance": {
+      "price": "coingecko",
+      "mcap": "coingecko",
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "price_usd": 0.02529302,
+      "mcap": 6297961.578596404,
+      "volume_24h": 5029981.173114388,
+      "change_24h": -5.893405670782322,
+      "tvl": 28432.592327747552,
+      "dl_mcap": 6258052.099291887,
+      "chains": [
+        "Ethereum",
+        "Binance",
+        "Mind Network",
+        "Scroll"
+      ]
+    }
+  },
+  "COOKIE": {
+    "ticker": "COOKIE",
+    "name": "Cookie DAO",
+    "category": "data_provenance",
+    "tier": 2,
+    "thesis": "AI agent data. $9.1M mcap.",
+    "provenance": {
+      "tvl": "defillama"
+    },
+    "metrics": {
+      "tvl": 0,
+      "dl_mcap": 8973038.97286097,
+      "chains": []
+    }
+  }
+}
