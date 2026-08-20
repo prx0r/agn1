@@ -1,0 +1,173 @@
+{
+  "prices": {
+    "PHA": {
+      "price_usd": 0.02310384,
+      "market_cap": 19418691.85858792,
+      "volume_24h": 6852715.944902557,
+      "change_24h_pct": 7.988676931307732,
+      "coingecko_id": "pha",
+      "fetched_at": "2026-08-20T08:38:43.277628"
+    },
+    "OLAS": {
+      "price_usd": 0.02109134,
+      "market_cap": 6159774.882244507,
+      "volume_24h": 129336.69033666715,
+      "change_24h_pct": 11.447228362235487,
+      "coingecko_id": "autonolas",
+      "fetched_at": "2026-08-20T08:38:43.277665"
+    },
+    "PEAQ": {
+      "price_usd": 0.01848801,
+      "market_cap": 44959614.93909583,
+      "volume_24h": 1406463.91088836,
+      "change_24h_pct": 9.21710687015341,
+      "coingecko_id": "peaq-2",
+      "fetched_at": "2026-08-20T08:38:43.277678"
+    },
+    "ACU": {
+      "price_usd": 0.134647,
+      "market_cap": 47694885.65506446,
+      "volume_24h": 7266779.832331393,
+      "change_24h_pct": 11.285284134546313,
+      "coingecko_id": "acurast",
+      "fetched_at": "2026-08-20T08:38:43.277684"
+    },
+    "ZKP": {
+      "price_usd": 0.04067202,
+      "market_cap": 8202190.159621095,
+      "volume_24h": 5962305.449385263,
+      "change_24h_pct": 3.1336634807686488,
+      "coingecko_id": "zkpass",
+      "fetched_at": "2026-08-20T08:38:43.277690"
+    },
+    "LA": {
+      "price_usd": 0.055997,
+      "market_cap": 10807429.203838928,
+      "volume_24h": 12085260.64522441,
+      "change_24h_pct": -0.2802098566654263,
+      "coingecko_id": "lagrange",
+      "fetched_at": "2026-08-20T08:38:43.277696"
+    },
+    "BREV": {
+      "price_usd": 0.06817,
+      "market_cap": 17042579.034747083,
+      "volume_24h": 3069524.8034950593,
+      "change_24h_pct": 7.06415061248529,
+      "coingecko_id": "brevis",
+      "fetched_at": "2026-08-20T08:38:43.277719"
+    },
+    "HONEY": {
+      "price_usd": 0.00057038,
+      "market_cap": 3750048.449445637,
+      "volume_24h": 128718.28906220823,
+      "change_24h_pct": -6.033619363554871,
+      "coingecko_id": "hivemapper",
+      "fetched_at": "2026-08-20T08:38:43.277727"
+    },
+    "VANA": {
+      "price_usd": 0.905414,
+      "market_cap": 27886758.09355349,
+      "volume_24h": 1343970.2451785223,
+      "change_24h_pct": 5.357172702428854,
+      "coingecko_id": "vana",
+      "fetched_at": "2026-08-20T08:38:43.277735"
+    },
+    "OPEN": {
+      "price_usd": 0.06872,
+      "market_cap": 32020.27368170167,
+      "volume_24h": 0.01374402242364092,
+      "change_24h_pct": null,
+      "coingecko_id": "openledger",
+      "fetched_at": "2026-08-20T08:38:43.277743"
+    },
+    "SAHARA": {
+      "price_usd": 0.00783297,
+      "market_cap": 28006955.78164309,
+      "volume_24h": 6248241.719345764,
+      "change_24h_pct": 8.408951892574835,
+      "coingecko_id": "sahara-ai",
+      "fetched_at": "2026-08-20T08:38:43.277751"
+    },
+    "NTX": {
+      "price_usd": 0.00192776,
+      "market_cap": 1669049.839188017,
+      "volume_24h": 58636.55354612248,
+      "change_24h_pct": 5.85177539602679,
+      "coingecko_id": "nunet",
+      "fetched_at": "2026-08-20T08:38:43.277761"
+    },
+    "FLT": {
+      "price_usd": 0.00087302,
+      "market_cap": 0,
+      "volume_24h": 7.90991989586107,
+      "change_24h_pct": null,
+      "coingecko_id": "fluence",
+      "fetched_at": "2026-08-20T08:38:43.277769"
+    },
+    "FLOCK": {
+      "price_usd": 0.03074014,
+      "market_cap": 13488956.611569634,
+      "volume_24h": 2214058.5505814054,
+      "change_24h_pct": 8.65159446946989,
+      "coingecko_id": "flock-2",
+      "fetched_at": "2026-08-20T08:38:43.277777"
+    },
+    "AUKI": {
+      "price_usd": 0.00486704,
+      "market_cap": 23172975.3912768,
+      "volume_24h": 87719.38383176803,
+      "change_24h_pct": 15.90261994380627,
+      "coingecko_id": "auki-labs",
+      "fetched_at": "2026-08-20T08:38:43.277785"
+    },
+    "AKT": {
+      "price_usd": 0.514564,
+      "market_cap": 152692449.72087324,
+      "volume_24h": 4769615.94197629,
+      "change_24h_pct": 7.702132430301857,
+      "coingecko_id": "akash-network",
+      "fetched_at": "2026-08-20T08:38:43.277791"
+    },
+    "0G": {
+      "price_usd": 0.150787,
+      "market_cap": 32147827.42854206,
+      "volume_24h": 6515552.912890577,
+      "change_24h_pct": 8.229776433867016,
+      "coingecko_id": "zero-gravity",
+      "fetched_at": "2026-08-20T08:38:43.277796"
+    },
+    "EIGEN": {
+      "price_usd": 0.188757,
+      "market_cap": 165420685.93923682,
+      "volume_24h": 22172742.73182704,
+      "change_24h_pct": 10.238849881868216,
+      "coingecko_id": "eigenlayer",
+      "fetched_at": "2026-08-20T08:38:43.277802"
+    },
+    "ATH": {
+      "price_usd": 0.00409264,
+      "market_cap": 82357699.36976221,
+      "volume_24h": 6669009.734453071,
+      "change_24h_pct": 8.882889846424082,
+      "coingecko_id": "aethir",
+      "fetched_at": "2026-08-20T08:38:45.515838"
+    },
+    "NOS": {
+      "price_usd": 0.283766,
+      "market_cap": 28376536.230999656,
+      "volume_24h": 444615.7590944731,
+      "change_24h_pct": 5.634206755726689,
+      "coingecko_id": "nosana",
+      "fetched_at": "2026-08-20T08:38:45.515858"
+    },
+    "AO": {
+      "price_usd": 1.89,
+      "market_cap": 124353754.00704144,
+      "volume_24h": 8708868.391744472,
+      "change_24h_pct": 7.344495180035232,
+      "coingecko_id": "arweave",
+      "fetched_at": "2026-08-20T08:38:45.515865"
+    }
+  },
+  "last_price_fetch": "2026-08-20T08:38:45.516144"
+}

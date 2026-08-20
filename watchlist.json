@@ -192,7 +192,7 @@
       "github": null,
       "category": "verifiable_execution",
       "tier": 1,
-      "thesis": "Tokenized inference capacity. VVV → DIEM ($1/day API credit). 230+ models. x402 wallet auth.",
+      "thesis": "Tokenized inference capacity. VVV \u2192 DIEM ($1/day API credit). 230+ models. x402 wallet auth.",
       "key_metric": "DIEM market value vs API cost parity"
     },
     "0G": {
@@ -285,24 +285,202 @@
       "thesis": "Decentralized search via Bittensor SN22.",
       "key_metric": "search quality + usage",
       "bittensor_netuid": 22
+    },
+    "MINIMA": {
+      "name": "Minima",
+      "coingecko_id": "minima",
+      "defillama_slug": null,
+      "github": "minima-official/Minima",
+      "category": "physical_machines",
+      "tier": 1,
+      "thesis": "Ultra-lean blockchain. Every phone runs a node. $3.2M mcap.",
+      "key_metric": "node count + transaction volume"
+    },
+    "NILL": {
+      "name": "Nillion",
+      "coingecko_id": "nillion",
+      "defillama_slug": null,
+      "github": null,
+      "category": "data_proofs",
+      "tier": 1,
+      "thesis": "Blind computation. Privacy-preserving AI inference. $21M mcap.",
+      "key_metric": "blind computation usage"
+    },
+    "GNS": {
+      "name": "Gensyn",
+      "coingecko_id": "gensyn",
+      "defillama_slug": null,
+      "github": null,
+      "category": "decentralized_training",
+      "tier": 1,
+      "thesis": "Decentralized ML training verification. Cambridge math guy.",
+      "key_metric": "training verification throughput"
+    },
+    "POND": {
+      "name": "Marlin",
+      "coingecko_id": "marlin",
+      "defillama_slug": null,
+      "github": "fldd/tunnelbear",
+      "category": "decentralized_compute",
+      "tier": 2,
+      "thesis": "Network protocol layer for relay networks. $5.8M mcap.",
+      "key_metric": "relay nodes + throughput"
+    },
+    "SCRT": {
+      "name": "Secret Network",
+      "coingecko_id": "secret",
+      "defillama_slug": null,
+      "github": "scrtlabs/SecretNetwork",
+      "category": "verifiable_execution",
+      "tier": 2,
+      "thesis": "Privacy-preserving smart contracts. TEE-based. $7.5M mcap.",
+      "key_metric": "secret apps + TVL"
+    },
+    "NYM": {
+      "name": "Nym",
+      "coingecko_id": "nym",
+      "defillama_slug": null,
+      "github": "nymtech/nym",
+      "category": "agent_economy",
+      "tier": 2,
+      "thesis": "Mixnet for anonymous agent communication. $15.5M mcap.",
+      "key_metric": "mix nodes + traffic volume"
+    },
+    "CORTEX": {
+      "name": "Cortex",
+      "coingecko_id": "cortex",
+      "defillama_slug": null,
+      "github": "cortexlabs/cortex",
+      "category": "verifiable_execution",
+      "tier": 2,
+      "thesis": "AI on-chain inference. $0.2M mcap \u2014 ultra micro.",
+      "key_metric": "on-chain inference usage"
+    },
+    "WMT": {
+      "name": "World Mobile",
+      "coingecko_id": "world-mobile-token",
+      "defillama_slug": null,
+      "github": "worldmobileteam",
+      "category": "physical_machines",
+      "tier": 2,
+      "thesis": "Decentralized telecom. Node network. $27.9M mcap.",
+      "key_metric": "active nodes + users"
+    },
+    "ARBIUS": {
+      "name": "Arbius",
+      "coingecko_id": "arbius",
+      "defillama_slug": "arbius",
+      "github": null,
+      "category": "agent_economy",
+      "tier": 2,
+      "thesis": "AI agent network. $0.1M mcap \u2014 ultra micro.",
+      "key_metric": "agent activity + revenue"
+    },
+    "GIZA": {
+      "name": "Giza",
+      "coingecko_id": "giza",
+      "defillama_slug": "giza",
+      "github": null,
+      "category": "agent_economy",
+      "tier": 2,
+      "thesis": "AI agents on-chain. $0.3M mcap.",
+      "key_metric": "agent deployments"
+    },
+    "MYSH": {
+      "name": "MyShell",
+      "coingecko_id": "myshell",
+      "defillama_slug": "myshell",
+      "github": null,
+      "category": "agent_economy",
+      "tier": 1,
+      "thesis": "AI agent platform. $5.6M mcap.",
+      "key_metric": "agent count + usage"
+    },
+    "MIND": {
+      "name": "Mind Network",
+      "coingecko_id": "mind-network",
+      "defillama_slug": "mind-network",
+      "github": null,
+      "category": "verifiable_execution",
+      "tier": 1,
+      "thesis": "FHE for AI agents. $6.2M mcap.",
+      "key_metric": "FHE computation volume"
+    },
+    "COOKIE": {
+      "name": "Cookie DAO",
+      "coingecko_id": "cookie",
+      "defillama_slug": "cookie",
+      "github": null,
+      "category": "data_provenance",
+      "tier": 2,
+      "thesis": "AI agent data. $9.1M mcap.",
+      "key_metric": "data volume + agent usage"
     }
   },
   "bittensor_subnets": {
-    "4": {"name": "Targon", "category": "verifiable_execution"},
-    "15": {"name": "ORO", "category": "agent_economy"},
-    "22": {"name": "Desearch", "category": "decentralized_compute"},
-    "28": {"name": "gm", "category": "agent_economy"},
-    "31": {"name": "rec4ll", "category": "agent_economy"},
-    "51": {"name": "Lium", "category": "decentralized_compute"},
-    "53": {"name": "engy", "category": "proof_generation"},
-    "60": {"name": "Bitsec", "category": "verifiable_execution"},
-    "62": {"name": "Ridges", "category": "agent_economy"},
-    "64": {"name": "Chutes", "category": "verifiable_execution"},
-    "80": {"name": "OpenRoboto", "category": "physical_ai"},
-    "87": {"name": "Provenonce", "category": "proof_generation"},
-    "90": {"name": "KubeTEE", "category": "verifiable_execution"},
-    "108": {"name": "Agent Launchpad", "category": "agent_economy"},
-    "11": {"name": "TrajectoryRL", "category": "agent_economy"},
-    "118": {"name": "Ditto", "category": "agent_economy"}
+    "4": {
+      "name": "Targon",
+      "category": "verifiable_execution"
+    },
+    "15": {
+      "name": "ORO",
+      "category": "agent_economy"
+    },
+    "22": {
+      "name": "Desearch",
+      "category": "decentralized_compute"
+    },
+    "28": {
+      "name": "gm",
+      "category": "agent_economy"
+    },
+    "31": {
+      "name": "rec4ll",
+      "category": "agent_economy"
+    },
+    "51": {
+      "name": "Lium",
+      "category": "decentralized_compute"
+    },
+    "53": {
+      "name": "engy",
+      "category": "proof_generation"
+    },
+    "60": {
+      "name": "Bitsec",
+      "category": "verifiable_execution"
+    },
+    "62": {
+      "name": "Ridges",
+      "category": "agent_economy"
+    },
+    "64": {
+      "name": "Chutes",
+      "category": "verifiable_execution"
+    },
+    "80": {
+      "name": "OpenRoboto",
+      "category": "physical_ai"
+    },
+    "87": {
+      "name": "Provenonce",
+      "category": "proof_generation"
+    },
+    "90": {
+      "name": "KubeTEE",
+      "category": "verifiable_execution"
+    },
+    "108": {
+      "name": "Agent Launchpad",
+      "category": "agent_economy"
+    },
+    "11": {
+      "name": "TrajectoryRL",
+      "category": "agent_economy"
+    },
+    "118": {
+      "name": "Ditto",
+      "category": "agent_economy"
+    }
   }
 }
